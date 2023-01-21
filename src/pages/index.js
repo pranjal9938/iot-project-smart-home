@@ -37,7 +37,7 @@ export default function Home() {
           {
             data.map((data,index)=><ControlContainer key={index} name={data.roomName} onLink={`${data.roomLink}on`} offLink={`${data.roomLink}off`} />)
           }
-          <ControlContainer name="Gate" onLink="http://192.168.1.7/gateopen" offLink={null}/>
+          <ControlContainer name="Gate" onLink="http://192.168.1.14/gateopen" offLink={null}/>
         </div>
       </main>
     </>
