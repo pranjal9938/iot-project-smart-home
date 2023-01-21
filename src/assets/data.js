@@ -9,7 +9,7 @@ const data = [
     },
     {
         roomName: "Bed Room",
-        roomLink : "hhttp://192.168.1.14/bedroom",
+        roomLink : "http://192.168.1.14/bedroom",
     },
     {
         roomName: "Stairs",
