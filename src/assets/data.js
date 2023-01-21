@@ -1,36 +1,40 @@
 const data = [
     {
-        roomName: "Guest Room",
-        roomLink : "http://192.168.1.7/guestroom",
+        roomName: "PoolSide",
+        roomLink : "http://192.168.1.7/poolsideroom",
     },
     {
-        roomName: "Lounge Room",
-        roomLink : "http://192.168.1.7/swimmingpool",
-    },
-    {
-        roomName: "Lift Room",
-        roomLink : "http://192.168.1.7/liftroom",
-    },
-    {
-        roomName: "Lounge Room",
-        roomLink : "http://192.168.1.7/loungeroom",
+        roomName: "Kitchen Room",
+        roomLink : "http://192.168.1.7/kitchenroom",
     },
     {
         roomName: "Bed Room",
         roomLink : "http://192.168.1.7/bedroom",
     },
     {
-        roomName: "Study Room",
-        roomLink : "http://192.168.1.7/studyroom",
+        roomName: "Stairs",
+        roomLink : "http://192.168.1.7/stairroom",
     },
     {
-        roomName: "Fan",
-        roomLink : "http://192.168.1.7/fan",
+        roomName: "Party Room",
+        roomLink : "http://192.168.1.7/partyroom",
+    },
+    {
+        roomName: "Dining Room",
+        roomLink : "http://192.168.1.7/diningroom",
+    },
+    {
+        roomName: "Swimming Pool",
+        roomLink : "http://192.168.1.7/swimmingpoolroom",
+    },
+    {
+        roomName :"Fan",
+        roomLink : "192.168.1.7/fan"
+    },
+    {
+        roomName :"Gate",
+        roomLink : "192.168.1.7/gateopen"
     }
-    // ,{
-    //     roomName :"Buzzer",
-    //     roomLink : "192.168.1.7/buzzer"
-    // }
 ]
 
 export default data
