@@ -30,10 +30,6 @@ const data = [
     {
         roomName :"Fan",
         roomLink : "http://192.168.1.14/fan"
-    },
-    {
-        roomName :"Gate",
-        roomLink : "http://192.168.1.14/gateopen"
     }
 ]
 
