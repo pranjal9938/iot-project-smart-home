@@ -1,4 +1,30 @@
- const [ip,setIp] = useState(null)
+import Head from 'next/head'
+import Image from 'next/image'
+import { Inter } from '@next/font/google'
+import styles from '@/styles/Home.module.css'
+import data from '@/assets/data'
+import { useEffect, useState } from 'react'
+
+const inter = Inter({ subsets: ['latin'] })
+
+const ControlContainer = ({name,onLink,offLink}) => {
+  return(
+    <div className={styles.singleControlContainer}>
+      <h3 className={styles.roomName}>{name}</h3>
+      <div className={styles.buttonContainer}>
+        {onLink && <a href={onLink} target="_blank" rel="noopener noreferrer" className={styles.bn62}>
+          On
+        </a>}
+        <a href={offLink} target="_blank" rel="noopener noreferrer" className={styles.bn62}>
+          Off
+        </a>
+      </div>
+    </div>
+  )
+}
+
+export default function Home() { 
+const [ip,setIp] = useState(null)
   const [showChild, setShowChild] = useState(false);
 
   useEffect(() => {
