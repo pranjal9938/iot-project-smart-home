@@ -65,7 +65,7 @@ const [ip,setIp] = useState(null)
             data.map((data,index)=><ControlContainer key={index} name={data.roomName} onLink={`http://${ip}${data.roomLink}on`} offLink={`http://${ip}${data.roomLink}off`} />)
             : <p style={{marginLeft:"6px"}}>Please reload & enter IP Address of Pico to continue using app...</p>
           }
-          <ControlContainer name="Gate" onLink=`http://${ip}/gateopen` offLink={null}/>
+          <ControlContainer name="Gate" onLink={`http://${ip}/gateopen`} offLink={null}/>
         </div>
       </main>
     </>
