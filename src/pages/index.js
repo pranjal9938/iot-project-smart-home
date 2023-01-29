@@ -15,9 +15,10 @@ const ControlContainer = ({name,onLink,offLink}) => {
         {onLink && <a href={onLink} target="_blank" rel="noopener noreferrer" className={styles.bn62}>
           On
         </a>}
-        <a href={offLink} target="_blank" rel="noopener noreferrer" className={styles.bn62}>
+        {offLink && <a href={offLink} target="_blank" rel="noopener noreferrer" className={styles.bn62}>
           Off
         </a>
+        }
       </div>
     </div>
   )
