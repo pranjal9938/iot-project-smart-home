@@ -1,35 +1,35 @@
 const data = [
     {
         roomName: "PoolSide",
-        roomLink : "http://192.168.1.14/poolsideroom",
+        roomLink : "/poolsideroom",
     },
     {
         roomName: "Kitchen Room",
-        roomLink : "http://192.168.1.14/kitchenroom",
+        roomLink : "/kitchenroom",
     },
     {
         roomName: "Bed Room",
-        roomLink : "http://192.168.1.14/bedroom",
+        roomLink : "/bedroom",
     },
     {
         roomName: "Stairs",
-        roomLink : "http://192.168.1.14/stairroom",
+        roomLink : "/stairroom",
     },
     {
         roomName: "Party Room",
-        roomLink : "http://192.168.1.14/partyroom",
+        roomLink : "/partyroom",
     },
     {
         roomName: "Dining Room",
-        roomLink : "http://192.168.1.14/diningroom",
+        roomLink : "/diningroom",
     },
     {
         roomName: "Swimming Pool",
-        roomLink : "http://192.168.1.14/swimmingpoolroom",
+        roomLink : "/swimmingpoolroom",
     },
     {
         roomName :"Fan",
-        roomLink : "http://192.168.1.14/fan"
+        roomLink : "/fan"
     }
 ]
 
