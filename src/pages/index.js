@@ -66,8 +66,10 @@ const [ip,setIp] = useState(null)
             : <p style={{marginLeft:"6px"}}>Please reload & enter IP Address of Pico to continue using app...</p>
           }
           <ControlContainer name="Gate" onLink={`http://${ip}/gateopen`} offLink={null}/>
-        </div>
-      </main>
-    </>
-  )
+      </div>
+    </main>
+    }
+  </>
+  }
 }
+
